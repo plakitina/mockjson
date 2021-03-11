@@ -1,1 +1,261 @@
-
+{
+  "users": [{
+    "id": 1,
+    "full_name": "Chloris Bunson",
+    "email": "cbunson0@51.la",
+    "password": "aBE6LWuW8O"
+  }, {
+    "id": 2,
+    "full_name": "Osbourn Sweetzer",
+    "email": "osweetzer1@bloglines.com",
+    "password": "QziKOMkVYL1"
+  }, {
+    "id": 3,
+    "full_name": "Elvin Jowitt",
+    "email": "ejowitt2@quantcast.com",
+    "password": "gk2Bf6r"
+  }, {
+    "id": 4,
+    "full_name": "Woodrow Raddan",
+    "email": "wraddan3@wikia.com",
+    "password": "ZNzjo5Zf"
+  }, {
+    "id": 5,
+    "full_name": "Aldin Campes",
+    "email": "acampes4@gnu.org",
+    "password": "FrrCnRG45Bs"
+  }, {
+    "id": 6,
+    "full_name": "Lorrin Leivesley",
+    "email": "lleivesley5@alibaba.com",
+    "password": "nfHgGc"
+  }, {
+    "id": 7,
+    "full_name": "Hadlee Nern",
+    "email": "hnern6@dagondesign.com",
+    "password": "1rnIuHi"
+  }, {
+    "id": 8,
+    "full_name": "Layney Scrivner",
+    "email": "lscrivner7@symantec.com",
+    "password": "wtxmEe2nZ"
+  }, {
+    "id": 9,
+    "full_name": "Sancho Elmore",
+    "email": "selmore8@disqus.com",
+    "password": "qo31CGQPk86"
+  }, {
+    "id": 10,
+    "full_name": "Sosanna Fynan",
+    "email": "sfynan9@admin.ch",
+    "password": "2EtM3x"
+  }],
+  
+  "cars": [{
+    "id": 1,
+    "model_id": 6,
+    "image": "http://dummyimage.com/228x222.bmp/dddddd/000000",
+    "price": 19000
+  }, {
+    "id": 2,
+    "model_id": 2,
+    "image": "http://dummyimage.com/244x102.png/cc0000/ffffff",
+    "price": 8000
+  }, {
+    "id": 3,
+    "model_id": 3,
+    "image": "http://dummyimage.com/145x201.jpg/dddddd/000000",
+    "price": 27000
+  }, {
+    "id": 4,
+    "model_id": 9,
+    "image": "http://dummyimage.com/211x142.png/dddddd/000000",
+    "price": 16000
+  }, {
+    "id": 5,
+    "model_id": 1,
+    "image": "http://dummyimage.com/109x182.jpg/cc0000/ffffff",
+    "price": 25000
+  }, {
+    "id": 6,
+    "model_id": 8,
+    "image": "http://dummyimage.com/217x241.bmp/ff4444/ffffff",
+    "price": 1000
+  }, {
+    "id": 7,
+    "model_id": 5,
+    "image": "http://dummyimage.com/126x118.jpg/cc0000/ffffff",
+    "price": 1000
+  }, {
+    "id": 8,
+    "model_id": 5,
+    "image": "http://dummyimage.com/101x215.png/dddddd/000000",
+    "price": 6000
+  }, {
+    "id": 9,
+    "model_id": 10,
+    "image": "http://dummyimage.com/145x214.png/cc0000/ffffff",
+    "price": 2000
+  }, {
+    "id": 10,
+    "model_id": 5,
+    "image": "http://dummyimage.com/193x190.png/ff4444/ffffff",
+    "price": 6000
+  }],
+  
+  "review": [{
+    "id": 1,
+    "body": "cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus",
+    "car_id": 8,
+    "user_id": 10
+  }, {
+    "id": 2,
+    "body": "pretium nisl ut volutpat sapien arcu sed augue aliquam erat",
+    "car_id": 1,
+    "user_id": 1
+  }, {
+    "id": 3,
+    "body": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus",
+    "car_id": 10,
+    "user_id": 5
+  }, {
+    "id": 4,
+    "body": "cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam",
+    "car_id": 5,
+    "user_id": 6
+  }, {
+    "id": 5,
+    "body": "habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo",
+    "car_id": 3,
+    "user_id": 2
+  }, {
+    "id": 6,
+    "body": "vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend",
+    "car_id": 6,
+    "user_id": 7
+  }, {
+    "id": 7,
+    "body": "commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non",
+    "car_id": 5,
+    "user_id": 3
+  }, {
+    "id": 8,
+    "body": "nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros",
+    "car_id": 1,
+    "user_id": 4
+  }, {
+    "id": 9,
+    "body": "felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
+    "car_id": 10,
+    "user_id": 10
+  }, {
+    "id": 10,
+    "body": "nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim",
+    "car_id": 3,
+"user_id": 1
+  }],
+  
+  "models": [{
+    "id": 1,
+    "model": "Continental Flying Spur",
+    "country": "jslater0@instagram.com",
+    "year": 2012
+  }, {
+    "id": 2,
+    "model": "Thunderbird",
+    "country": "tdeclerq1@virginia.edu",
+    "year": 1980
+  }, {
+    "id": 3,
+    "model": "57",
+    "country": "hroskelly2@oracle.com",
+    "year": 2007
+  }, {
+    "id": 4,
+    "model": "911",
+    "country": "lmessum3@foxnews.com",
+    "year": 1995
+  }, {
+    "id": 5,
+    "model": "Rio",
+    "country": "thardware4@delicious.com",
+    "year": 2001
+  }, {
+    "id": 6,
+    "model": "Commander",
+    "country": "bsauvage5@feedburner.com",
+    "year": 2006
+  }, {
+    "id": 7,
+    "model": "Elise",
+    "country": "cstorah6@walmart.com",
+    "year": 2007
+  }, {
+    "id": 8,
+    "model": "A3",
+    "country": "gsnalham7@home.pl",
+    "year": 2008
+  }, {
+    "id": 9,
+    "model": "Grand Prix",
+    "country": "flishman8@oracle.com",
+    "year": 1996
+  }, {
+    "id": 10,
+    "model": "Silverado",
+    "country": "brekes9@cbc.ca",
+    "year": 2007
+  }],
+  
+  "news": [{
+    "id": 1,
+    "title": "vulputate ut ultrices vel",
+    "body": "turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum",
+    "image": "http://dummyimage.com/150x163.jpg/cc0000/ffffff"
+  }, {
+    "id": 2,
+    "title": "sodales",
+    "body": "rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio",
+    "image": "http://dummyimage.com/126x139.jpg/dddddd/000000"
+  }, {
+    "id": 3,
+    "title": "orci luctus et",
+    "body": "dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius",
+    "image": "http://dummyimage.com/246x225.bmp/dddddd/000000"
+  }, {
+    "id": 4,
+    "title": "platea dictumst",
+    "body": "convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo",
+    "image": "http://dummyimage.com/239x116.png/ff4444/ffffff"
+  }, {
+    "id": 5,
+    "title": "vitae consectetuer eget",
+    "body": "pede justo eu massa donec dapibus duis at velit eu est congue",
+    "image": "http://dummyimage.com/167x174.png/5fa2dd/ffffff"
+  }, {
+    "id": 6,
+    "title": "ut",
+    "body": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla",
+    "image": "http://dummyimage.com/220x185.jpg/5fa2dd/ffffff"
+  }, {
+    "id": 7,
+    "title": "natoque penatibus et",
+    "body": "sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
+    "image": "http://dummyimage.com/112x245.bmp/5fa2dd/ffffff"
+  }, {
+    "id": 8,
+    "title": "magna vulputate luctus",
+    "body": "ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet",
+    "image": "http://dummyimage.com/145x211.png/dddddd/000000"
+  }, {
+    "id": 9,
+    "title": "vitae ipsum aliquam non",
+    "body": "turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue",
+    "image": "http://dummyimage.com/179x151.jpg/cc0000/ffffff"
+  }, {
+    "id": 10,
+    "title": "vulputate",
+    "body": "est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in",
+    "image": "http://dummyimage.com/116x203.jpg/dddddd/000000"
+  }] 
+}
