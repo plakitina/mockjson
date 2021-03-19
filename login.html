@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Log in/Sign up</title>
+
+
+
+    <link rel="stylesheet" href="logins.css">
+
+
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form name="myForm" class="register-form" id="reg">
+                <input type="text" placeholder="name" name="fullname" />
+                <input type="password" placeholder="password" name="password" />
+                <input type="text" placeholder="email address" name="email" />
+                <button id="regbutton" onclick="reg()">create</button>
+                <p class="message">Already registered? <a id="buttonc" href="#">Sign In</a></p>
+            </form>
+            <form class="login-form" id="log" name="myForm1">
+                <input type="text" placeholder="email" name="email" />
+                <input type="password" placeholder="password" name="password"/>
+                <button id="logbutton" onclick="log_in()">login</button>
+                <p class="message">Not registered? <a id="button1" href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Successfully signed in! Thank you for joining us!</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="func.js"></script>
+</html>
